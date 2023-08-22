@@ -1,0 +1,32 @@
+body {
+    background-color: #f2f0d5;
+}
+
+h2 {
+    background-color: #d9ab73;
+    width: 380px;
+    color: #593616;
+}
+
+p {
+    background-color: #a66933;
+    width: 380px;
+    color: white;
+}
+
+label {
+    background-color: #8c5716;
+    color: white;
+}
+
+input {
+    background-color: #fffbc8;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: d9ab73;
+    color: black;
+    border-radius: 3px
+}
