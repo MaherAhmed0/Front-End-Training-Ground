@@ -1,0 +1,90 @@
+body {
+    background-color: #cad6c8;
+}
+
+h1 {
+    color: #463d30;
+    font-size: 45px;
+}
+
+.container {
+    width: 580px;
+    height: 3100px;
+    background-color: #c2bfae;
+    border-radius: 10px;
+}
+
+.head {
+    color: #463d30;
+    font-size: 27px;
+}
+
+.seperator {
+    width: 580px;
+    height: 4px;
+    background-color: #463d30;
+}
+
+.items {
+    width: 560px;
+    height: 485px;
+    background-color: #463d30;
+    border-radius: 5px;
+}
+
+.coffee-images {
+    width: 560px;
+    height: 255px;
+    border-radius: 7px;
+}
+
+.coffee-images:hover {
+    height: 270px;
+}
+
+.coffee-type {
+    color: white;
+    font-size: 23px;
+}
+
+.Ingredients {
+    color: white;
+}
+
+.Ingredients:hover {
+    color: #e0ecde;
+    font-size: 20px;
+}
+
+.extras {
+    color: white;
+}
+
+.btn {
+    background-color: #cad6c8;
+    color: #463d30;
+    border-radius: 7px;
+    border: 0;
+    width: 90px;
+    height: 30px;
+}
+
+.btn:hover {
+    background-color: #a0a89f;
+    width: 95px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #463d30;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+}
+
+.brand{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ddbb70;
+}
