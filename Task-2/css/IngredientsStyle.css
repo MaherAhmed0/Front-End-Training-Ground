@@ -9,7 +9,7 @@ h1 {
 
 .container {
     width: 640px;
-    height: 2200px;
+    height: 2370px;
     background-color: #c2bfae;
     border-radius: 10px;
 }
@@ -38,6 +38,10 @@ h1 {
     border-radius: 5px;
 }
 
+.items:hover {
+    background-color: #463d30;
+}
+
 .menu-items {
     color: white;
     font-size: 25px;
@@ -46,6 +50,21 @@ h1 {
 .white {
     color: white;
     font-size: 17px;
+}
+
+.quote {
+    color: #473f31;
+}
+
+.cir {
+    width: 88px;
+    height: 88px;
+    color: white;
+    background-color: #554c3d;
+}
+
+.cir:hover {
+    border-radius: 50%;
 }
 
 .btn {
