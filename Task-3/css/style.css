@@ -1,0 +1,182 @@
+body {
+    background-color: #141519;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 1150px;
+}
+
+.header {
+    background-color: #23252B;
+    overflow: auto;
+}
+
+.logo-img {
+    width: 95px;
+    height: 75px;
+    float: left;
+}
+
+.name {
+    color: #D0A012;
+    margin-top: 23px;
+    font-size: 26px;
+    float: left;
+}
+
+.nav-bar {
+    float: right;
+}
+
+.options {
+    float: left;
+    margin: 27px 30px;
+    color: #a0a0a0;
+}
+
+.options:hover {
+    color: white;
+}
+
+#in {
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.special {
+    color: #CF9F12;
+}
+
+.sub-heading {
+    text-align: center;
+    color: #a0a0a0;
+    margin-top: 10px;
+}
+
+.h-line {
+    width: 80px;
+    height: 2px;
+    margin: auto;
+    border: none;
+    background-color: #a0a0a0;
+}
+
+.plan-card {
+    width: 300px;
+    height: 590px;
+    background-color: #23252B;
+    float: left;
+    border-radius: 5px;
+    margin: 40px 0px 300px 25px;
+    padding: 25px;
+}
+
+.plan-name {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#most-popular {
+    border: 1px solid #D0A012;
+}
+
+.popular {
+    text-align: center;
+    margin-top: -12px;
+    color: #D0A012;
+}
+
+.cir {
+    margin: auto;
+    text-align: center;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px solid #fab818;
+}
+
+.price {
+    font-size: 24px;
+    margin-bottom: -18px;
+    color: white;
+}
+
+.price-int {
+    color: white;
+    font-size: 18px;
+}
+
+.taxes {
+    text-align: center;
+    color: #a0a0a0;
+    font-size: 12px;
+}
+
+.subscribe {
+    margin: auto;
+    display: block;
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fab818;
+    background-color: #23252B;
+    border: 2px solid;
+}
+
+.subscribe:hover {
+    width: 285px;
+    height: 45px;
+    color: white;
+}
+
+.no-trial {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.no-trial:hover {
+    color: #dddddd;
+}
+
+.description {
+    color: white;
+}
+
+.line {
+    margin: auto;
+    width: 160px;
+    height: 2px;
+    background-color: #a0a0a0;
+}
+
+.adds {
+    margin-left: -23px;
+}
+
+.plus {
+    color: white;
+    padding: 6px;
+}
+
+.devices-num {
+    color: #D0A012;
+}
+
+#line-through {
+    color: #a0a0a0;
+    text-decoration: line-through;
+}
