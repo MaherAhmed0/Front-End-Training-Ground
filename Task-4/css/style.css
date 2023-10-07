@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #767676;
+}
+
+.road {
+    width: 95%;
+    height: 100px;
+    margin: 1rem auto;
+    padding: 8px;
+    background-color: #363636;
+    position: relative;
+    overflow: hidden;
+}
+
+.road-line {
+    background-color: #d3b84cd2;
+    float: left;
+    width: 12.8257%;
+    height: 16px;
+    margin: 43px 0.7%;
+}
+
+.car-left {
+    font-size: 62px;
+    color: rgb(255, 251, 214);
+    text-shadow: -6px 7px 10px black;
+    position: absolute;
+    left: 8px;
+    animation-name: left-right;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.delay-3 {
+    animation-name: left-right;
+    animation-delay: 6s;
+}
+
+.delay-5 {
+    animation-name: left-right;
+    animation-delay: 12s;
+}
+
+.delay-7 {
+    animation-name: left-right;
+    animation-delay: 18s;
+}
+
+@keyframes left-right {
+    from {
+        left: 8px;
+    }
+
+    to {
+        left: 1400px;
+    }
+}
+
+.car-right {
+    font-size: 62px;
+    color: rgb(255, 251, 214);
+    text-shadow: -6px 7px 10px black;
+    position: absolute;
+    right: 8px;
+    animation-name: right-left;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.delay-4 {
+    animation-name: right-left;
+    animation-delay: 9s;
+}
+
+.delay-6 {
+    animation-name: right-left;
+    animation-delay: 15s;
+}
+
+.delay-8 {
+    animation-name: right-left;
+    animation-delay: 21s;
+}
+
+@keyframes right-left {
+    from {
+        right: 8px;
+    }
+
+    to {
+        right: 1400px;
+    }
+}
