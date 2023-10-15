@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f3f7;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    /* background-color: #333232; */
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3), -15px -15px 15px white;
+    margin: 100px auto;
+}
+
+.item {
+    perspective: 700px;
+    width: 50%;
+    position: relative;
+}
+
+/* -----------------------LT----------------------- */
+
+.lt {
+    border-top-left-radius: 10px;
+    /* background-color: #222121; */
+}
+
+.lt::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #222121;
+    border-top-left-radius: 10px;
+    transform-origin: right;
+    transition: 0.7s ease-in-out;
+}
+
+.lt:hover::before {
+    transform: rotateY(180deg);
+}
+
+/* -----------------------RT----------------------- */
+
+.rt {
+    border-top-right-radius: 10px;
+    /* background-color: #333232; */
+}
+
+.rt::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333232;
+    border-top-right-radius: 10px;
+    transform-origin: bottom;
+    transition: 0.7s ease-in-out;
+}
+
+.rt:hover::before {
+    transform: rotateX(-180deg);
+}
+
+/* -----------------------LB----------------------- */
+
+.lb {
+    border-bottom-left-radius: 10px;
+    /* background-color: #333232; */
+}
+
+.lb::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333232;
+    border-bottom-left-radius: 10px;
+    transform-origin: top;
+    transition: 0.7s ease-in-out;
+}
+
+.lb:hover::before {
+    transform: rotateX(180deg);
+}
+
+/* -----------------------RB----------------------- */
+.rb {
+    border-bottom-right-radius: 10px;
+    /* background-color: #222121; */
+}
+
+.rb::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #222121;
+    border-bottom-right-radius: 10px;
+    transform-origin: left;
+    transition: 0.7s ease-in-out;
+}
+
+.rb:hover::before {
+    transform: rotateY(-180deg);
+}
