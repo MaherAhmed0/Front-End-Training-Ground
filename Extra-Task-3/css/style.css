@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: rgb(2, 1, 3);
     color: white;
 }
 
@@ -70,6 +70,7 @@ body {
 
 .projects-sec .head {
     border-bottom: 1px solid #00b2cd5e;
+    margin-bottom: 16px;
 }
 
 .projects-sec h2 {
@@ -77,7 +78,7 @@ body {
     margin-bottom: 16px;
 }
 
-.projects-sec p {
+.projects-sec .head-text {
     max-width: 1200px;
     font-size: 20px;
     font-weight: bold;
@@ -91,11 +92,61 @@ body {
 }
 
 .project-item {
-    width: 50%;
+    width: calc(50% - 16px);
+    margin-bottom: 32px;
+
 }
 
 .project {
     padding: 30px;
-    margin: 32px;
-    background-color: #00B1CD;
+    background-color: #0D1117;
+    border-radius: 10px;
+}
+
+/* Dynamically added elements  */
+
+.repo-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.topic-item {
+    padding: 8px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: #e2e8f02a;
+}
+
+.project hr {
+    margin: 12px 0;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.project .description {
+    font-size: 17px;
+    color: #919191;
+    line-height: 1.5;
+}
+
+.project .links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links .link-item {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #e2e8f02a;
+    margin: 0 4px 4px 0;
 }
