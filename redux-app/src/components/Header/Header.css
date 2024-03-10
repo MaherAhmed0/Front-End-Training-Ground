@@ -1,0 +1,15 @@
+header{
+    background-color: #494d5f;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 7rem;
+}
+h1 {
+    font-size: 36px;
+}
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
